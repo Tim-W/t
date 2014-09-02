@@ -1,0 +1,49 @@
+<ion-view title="{{fb.lists[selectedList].title}}">
+    <ion-content class="has-header">
+        <br>
+        <center>
+            <h3>Please select the practice order and level.</h3>
+        </center>
+        <div class="list">
+            <div class="item item-divider">
+                Practice order
+            </div>
+            <label class="item item-radio">
+                <input type="radio" name="group1" selected>
+                <div class="item-content">
+                    {{fb.lists[selectedList].one.name}} - {{fb.lists[selectedList].two.name}}
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            <label class="item item-radio">
+                <input type="radio" name="group1">
+                <div class="item-content">
+                    {{fb.lists[selectedList].two.name}} - {{fb.lists[selectedList].one.name}}
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            <div class="item item-divider">
+                Practice level
+            </div>
+            <label class="item item-radio">
+                <input type="radio" name="group" selected>
+                <div class="item-content">
+                    Good <span class="item-note">practice until all is rightly answered</span>
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+            <label class="item item-radio">
+                <input type="radio" name="group">
+                <div class="item-content">
+                    Quick <span class="item-note">ask all items once</span>
+                </div>
+                <i class="radio-icon ion-checkmark"></i>
+            </label>
+        </div>
+        <center>
+            <button class="button button-positive icon-right ion-ios7-arrow-right" on-tap="practice3()">
+                Start practice
+            </button>
+        </center>
+    </ion-content>
+</ion-view>

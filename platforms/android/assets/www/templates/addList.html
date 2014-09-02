@@ -1,0 +1,42 @@
+<ion-view title="Add a list">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+    <ion-content class="has-header">
+        <div class="card">
+            <div class="item item-divider">
+                Please fill in some details for your new list.
+            </div>
+            <div class="item item-text-wrap" ng-init="newList = {}">
+                <div class="list">
+                    <label class="item item-input item-floating-label">
+                        <span class="input-label">List title</span>
+                        <input type="text" placeholder="List title" ng-model="newList.title">
+                    </label>
+                    <label class="item item-input item-floating-label">
+                        <span class="input-label">First language</span>
+                        <input type="text" placeholder="First language" ng-model="newList.one.name">
+                    </label>
+                    <label class="item item-input item-floating-label">
+                        <span class="input-label">Second language</span>
+                        <input type="text" placeholder="Second language" ng-model="newList.two.name">
+                    </label>
+                    <label class="item item-input item-select">
+                        <div class="input-label">
+                            Category
+                            <br>(optional)
+                        </div>
+                        <select ng-change="change(newList.category)" ng-model="newList.category">
+                            <option ng-selected="selected" ng-value="unordered"></option>
+                            <option ng-repeat="category in fb.users[userID].lists" onclick="">{{category.directoryName}}</option>
+                            <option value="new" ng-selected="selected">+ New category</option>
+                        </select>
+                    </label>
+                </div>
+                <button class="button button-positive icon-right ion-ios7-arrow-right" on-tap="editList(newList)">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,62 @@
+<ion-view title="Editing: {{fb.lists[selectedList].title}}">
+    <ion-nav-buttons side="right">
+        <button class="button button-icon icon ion-ios7-checkmark-outline" on-tap="editComplete()"></button>
+    </ion-nav-buttons>
+    <ion-content has-bouncing class="has-header">
+        <table style="width: 100%">
+            <tbody>
+                <tr ng-repeat="value in fb.lists[selectedList].one.values track by $index">
+                    <td>
+                        <div class="list list-inset" style="float: left; width: 97%">
+                            <label class="item item-input" style="width: 100%">
+                                <input type="text" placeholder="{{fb.lists[selectedList].one.name}}" ng-value="fb.lists[selectedList].one.values[$index]">
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div ng-init="$log('stuff')" class="list list-inset" style="float: right; width: 97%">
+                            <label class="item item-input" style="width: 100%">
+                                <input type="text" placeholder="{{fb.lists[selectedList].two.name}}" ng-value="fb.lists[selectedList].two.values[$index]">
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+<!--
+                <tr ng-repeat-end>
+                    <td>
+                        <div class="list list-inset" style="float: left; width: 97%">
+                            <label class="item item-input" style="width: 100%">
+                                <input type="text" placeholder="{{fb.lists[selectedList].one.name}}" ng-value="fb.lists[selectedList].one.values[10]">
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="list list-inset" style="float: right; width: 97%">
+                            <label class="item item-input" style="width: 100%">
+                                <input type="text" placeholder="{{fb.lists[selectedList].two.name}}" ng-value="fb.lists[selectedList].two.values[10]">
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+-->
+                <tr>
+                    <td>
+                        <div class="list list-inset" style="float: left; width: 100%; height: 100%">
+                            <center><button class="button icon ion-camera" style="width: 50%" on-tap="camera1();"></button></center>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="list list-inset" style="float: right; width: 100%; height: 100%">
+                            <center><button class="button icon ion-camera" style="width: 50%" on-tap="camera1();"></button></center>
+                        </div>
+                    </td>
+                </tr>
+<!--
+                <tr>
+                    <td colspan="2"><center>{{loading}}</center></td>
+                </tr>
+-->
+            </tbody>
+        </table>
+    </ion-content>
+</ion-view>
