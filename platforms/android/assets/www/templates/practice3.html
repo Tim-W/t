@@ -1,0 +1,51 @@
+<ion-view title="Practicing: {{fb.lists[selectedList].title}}" ng-init="headerColor = 'bar-dark'">
+    <ion-content class="has-header">
+                <div id="progression" style="left: 0px; background: green; width: 0%; height: 10px"></div>
+        <div class="card">
+            <div class="item item-divider">
+                {{fb.lists[selectedList].title}}
+            </div>
+            <div class="item item-text-wrap">
+                <h2>{{fb.lists[selectedList].one.name}}</h2>
+                <!--                TODO: Select right list-->
+                <h1>{{fb.lists[selectedList].one.values[randomNumber]}}</h1>
+
+                <h2>{{fb.lists[selectedList].two.name}}</h2>
+                <!--                TODO: Select right list-->
+                <form name="learn" ng-submit="submit(wordToAnswer)">
+                    <div class="list list-inset">
+                        <div id="notright"></div>
+                        <label class="item item-input">
+                            <input id="answer" ng-model="wordToAnswer" style="font-size: 36px; height: 60px; margin-left: -8px" type="text" autofocus>
+                        </label>
+                    </div>
+                    <button class="button-energized button-block button" type="submit">OK</button>
+                </form>
+            </div>
+        </div>
+        <div class="card">
+            <div class="item item-text-wrap">
+                <table style="min-width: 220px; width: 50%" border="1px darkblue">
+                    <thead>
+                        <th><strong>Score</strong>
+                        </th>
+                        <th style="background-color: #eee">Right</th>
+                        <th style="background-color: #eee">Wrong</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td style="background-color: #eee"></td>
+                            <td>
+                                <center id="rightAnswers"></center>
+                            </td>
+                            <td>
+                                <center id="wrongAnswers"></center>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

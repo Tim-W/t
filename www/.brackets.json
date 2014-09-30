@@ -1,0 +1,6 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/home/tim/Documenten/Werk/Teasy/t/www/lib/ngCordova/test/plugins/preferences.spec.js",
+        "/home/tim/Documenten/Werk/Teasy/t/www/lib/ngCordova/test/plugins/network.spec.js"
+    ]
+}
