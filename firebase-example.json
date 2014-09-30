@@ -1,0 +1,1073 @@
+{
+  "lists" : {
+    "-JVQlg6iWecT6MtpZRNN" : {
+      "one" : {
+        "name" : "Language 1"
+      },
+      "title" : "Title",
+      "two" : {
+        "name" : "Language 2"
+      }
+    },
+    "-JVRdA0sqDL3BHjqMEUa" : {
+      "category" : "Deutsch...",
+      "one" : {
+        "name" : "First language"
+      },
+      "title" : "List title",
+      "two" : {
+        "name" : "Second language"
+      }
+    },
+    "-JVhKWWBnsMJgl7nsKgd" : {
+      "one" : {
+        "name" : "test1"
+      },
+      "title" : "New List",
+      "two" : {
+        "name" : "test2"
+      }
+    },
+    "-JVhL6meNwdJFRua8106" : {
+      "one" : {
+        "name" : "d"
+      },
+      "title" : "d",
+      "two" : {
+        "name" : "dd"
+      }
+    },
+    "-JVhMwiKVY6ACAy2TOgr" : {
+      "two" : {
+        "name" : "c"
+      }
+    },
+    "-JVkFckh_SUBDLFTq3oU" : {
+      "two" : {
+        "name" : "d",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkFla60V_XR-L1bfXZ" : {
+      "one" : {
+        "name" : "First Language",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "List Title",
+      "two" : {
+        "name" : "Second Language",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkGZ01aQdfKD_K3P69" : {
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkL2IAg3vUrmu-NbcA" : "google:102301357648345413164",
+    "-JVkM51kOQhgllJJpiIk" : "google:102301357648345413164",
+    "-JVkieUx0hSguKvy81Od" : {
+      "category" : "Deutsch...",
+      "one" : {
+        "name" : "Language",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "Title",
+      "two" : {
+        "name" : "Language",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkkFGp-bs51skCU3v_" : {
+      "category" : "Deutsch...",
+      "one" : {
+        "name" : "Language",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "Title",
+      "two" : {
+        "name" : "Second Language",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkkLXEX5_LsoJJiXIV" : {
+      "category" : "Japanese!",
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkkgrXBwl1GwTMxN58" : {
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVklG7tVB-r6Yb3EiwP" : {
+      "category" : "Deutsch...",
+      "one" : {
+        "name" : "isch",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "log",
+      "two" : {
+        "name" : "er",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVklgXm-1vAkX8frsVB" : {
+      "one" : {
+        "name" : "d",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "d",
+      "two" : {
+        "name" : "d",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkll2n8coLVxTKHE0r" : {
+      "category" : "Japanese!",
+      "one" : {
+        "name" : "d",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "d",
+      "two" : {
+        "name" : "d",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVklu1XQyZQT_xWg7pY" : {
+      "category" : "Japanese!",
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkm6pxfXbJEYkR4md_" : {
+      "category" : "Deutsch...",
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkmEPSOdlOfAQlmMkc" : {
+      "category" : "Japanese!",
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkmFURtEWqn_W79c-6" : {
+      "category" : "new",
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVknfQxDrgp9JqcKbsF" : {
+      "category" : "Deutsch...",
+      "one" : {
+        "name" : "sdffa",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "da",
+      "two" : {
+        "name" : "sdfasd",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkntns1l_Ic-1Xrm2k" : {
+      "category" : "Japanese!",
+      "one" : {
+        "name" : "asd",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "asd",
+      "two" : {
+        "name" : "ad",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkp0hnNuVGCoiXW7-r" : {
+      "category" : "Japanese!",
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkpEopPZwOKovE5VJl" : {
+      "category" : "Japanese!",
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkpxAOFKXc-pqOgvLk" : {
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkq9xrRT_LaEFcAILO" : {
+      "category" : "Deutsch...",
+      "one" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVkrAEUf5tkKiWGmCYG" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVksutdo6ti7eGtPBuP" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "s",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "a",
+      "two" : {
+        "name" : "d",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVl9KfL9QF_-4ypr1Ul" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "s",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "bs",
+      "two" : {
+        "name" : "s",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVlEeC7z4aae83xFXPQ" : {
+      "category" : "Japanese!",
+      "one" : {
+        "name" : "1",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "Interesting list",
+      "two" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVlEvD8lCKvIzGaSRO3" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "1",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "Tims list",
+      "two" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVlF_ODzeG3euKiDBay" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVlcqcSHV6OX_OV1zzJ" : {
+      "category" : "new",
+      "one" : {
+        "name" : "language",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "title",
+      "two" : {
+        "name" : "language 2",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVlcvRvacaxlBRtFdy3" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "1",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "title",
+      "two" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVldp8U8AiuckvQpvdb" : {
+      "category" : "new",
+      "one" : {
+        "name" : "ds",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "ds",
+      "two" : {
+        "name" : "ds",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVlfSbFbIT_UYl-Rfd2" : {
+      "category" : "new",
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVlhrCpvL14-WSuqk6v" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "Dutch",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "New List 2",
+      "two" : {
+        "name" : "English",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVlxvBBdLAGMrUFjcBX" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "1",
+      "two" : {
+        "name" : "3",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVsFis8DPm89cLqJ-_d" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "Engels",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "Erwin",
+      "two" : {
+        "name" : "Nederlands",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVsH24HOm8rxd19SL8l" : {
+      "category" : "new",
+      "one" : {
+        "name" : "Engels",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "Engels",
+      "two" : {
+        "name" : "Nederlands",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVwoQUHiKYNUhobR1mo" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "English",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "grammer terms",
+      "two" : {
+        "name" : "english",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVwq2hG--e9Ociizwc3" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "1",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "test",
+      "two" : {
+        "name" : "2",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JVzKaNw0vfLUTOZaO1K" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "English",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "Erwin 2",
+      "two" : {
+        "name" : "Nederlands",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JWYyWcLkWC6SEjP_E8b" : {
+      "category" : "new",
+      "one" : {
+        "name" : "l",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "l",
+      "two" : {
+        "name" : "l",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JWnM8jMH_rXHJYD91fm" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "b",
+        "values" : [ "fiets", "land", "huis", "nieuw", "spelen" ]
+      },
+      "title" : "f",
+      "two" : {
+        "name" : "n",
+        "values" : [ "bike", "country", "home", "new", "play" ]
+      }
+    },
+    "-JWya04WjvI4hf1GPlWf" : {
+      "category" : "example category",
+      "one" : {
+        "name" : "d"
+      },
+      "title" : "fb test",
+      "two" : {
+        "name" : "f"
+      }
+    },
+    "-JXC9P_Dzg-HRlA-fp91" : {
+      "category" : "new",
+      "one" : {
+        "name" : "Nederlands",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "woordenboek",
+      "two" : {
+        "name" : "Engels",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JXEU2ogt21MubMcqmmJ" : {
+      "category" : "unordered",
+      "one" : {
+        "name" : "h",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "h",
+      "two" : {
+        "name" : "j",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JXEU4mYpWl7sy6_escH" : {
+      "category" : "new",
+      "one" : {
+        "name" : "h",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "h",
+      "two" : {
+        "name" : "j",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JXEU5HlrUdVL2lFinAV" : {
+      "category" : "new",
+      "one" : {
+        "name" : "h",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "h",
+      "two" : {
+        "name" : "j",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JXEU5zUQTuYA8blfUJ8" : {
+      "category" : "new",
+      "one" : {
+        "name" : "h",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "h",
+      "two" : {
+        "name" : "j",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JXEU6P1ADQJH0U4nU5x" : {
+      "category" : "new",
+      "one" : {
+        "name" : "h",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "h",
+      "two" : {
+        "name" : "j",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JXrKWXpbLsjDIw8MQF9" : {
+      "category" : "Oefenlijsten",
+      "one" : {
+        "name" : "Nederlands",
+        "values" : [ "", "", "", "", "" ]
+      },
+      "title" : "Proberen",
+      "two" : {
+        "name" : "Engels",
+        "values" : [ "", "", "", "", "" ]
+      }
+    },
+    "-JXsHR__pYZa6bq8nRT8" : {
+      "category" : "new",
+      "one" : {
+        "name" : "1",
+        "values" : [ "een", "drie" ]
+      },
+      "title" : "nieuwe lijst",
+      "two" : {
+        "name" : "2",
+        "values" : [ "twee", "vier" ]
+      }
+    }
+  },
+  "users" : {
+    "0" : {
+      "lists" : {
+        "0" : {
+          "directoryName" : "Japanese!",
+          "listIDs" : {
+            "-JVlEeEDLKfSkVDe713u" : "-JVlEeC7z4aae83xFXPQ"
+          }
+        },
+        "1" : {
+          "directoryName" : "Deutsch...",
+          "listIDs" : [ 0, 1 ]
+        },
+        "-JVktI5SN5ufei1CZElO" : {
+          "directoryName" : "unordered"
+        }
+      }
+    },
+    "1" : 2,
+    "2" : 3,
+    "facebook:539511319514339" : {
+      "accessToken" : "CAAHZCTKfDYe4BAI9daAx3QcA3tFmC5ZBYLbfxamiXKCv0u4A6WiNkxBjJfUcMzAJjh89aOYnDCbAOdkPFsayo4b0l5dEHhrXhkttPXfZCP2X3IU7GWPkoxDMIMVdb6mZALJmNcDQud6jPBXqBhhZBDyNSNMZABdqRJZAHs1pdCyMXA4QWn3FMxJCDXBdR1K6VtGub7bgsFxEZBxy0J2QS3XU",
+      "displayName" : "Erwin van der Put",
+      "firebaseAuthToken" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0MDk5OTI4MTAsInYiOjAsImQiOnsiaWQiOiI1Mzk1MTEzMTk1MTQzMzkiLCJ1aWQiOiJmYWNlYm9vazo1Mzk1MTEzMTk1MTQzMzkiLCJwcm92aWRlciI6ImZhY2Vib29rIn0sImlhdCI6MTQwOTkwNjQwOX0.R2X7LfmvpZ4WWkj-s8vKKdAqlFvZygx6hvUUyKyqifE",
+      "id" : "539511319514339",
+      "lists" : {
+        "-JW3y8vTv0D7gxjmhyu6" : {
+          "directoryName" : "example category"
+        },
+        "-JW5oaSspkwXdqK00C4e" : {
+          "directoryName" : "example category"
+        }
+      },
+      "provider" : "facebook",
+      "thirdPartyUserData" : {
+        "age_range" : {
+          "max" : 20,
+          "min" : 18
+        },
+        "first_name" : "Erwin",
+        "gender" : "male",
+        "id" : "539511319514339",
+        "last_name" : "van der Put",
+        "link" : "https://www.facebook.com/app_scoped_user_id/539511319514339/",
+        "locale" : "nl_NL",
+        "name" : "Erwin van der Put",
+        "picture" : {
+          "data" : {
+            "is_silhouette" : false,
+            "url" : "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p100x100/10603334_532746750190796_4377698436548634533_n.jpg?oh=66d293bae474f7c51bedb71894c2596a&oe=54890007&__gda__=1419913147_a6a58ef9aa81c23a7ac298804d3b2509"
+          }
+        },
+        "timezone" : 2
+      },
+      "uid" : "facebook:539511319514339"
+    },
+    "facebook:675527625877321" : {
+      "accessToken" : "CAAHZCTKfDYe4BANC3U9Bnvf6kLQn5gQec63lxH3llhjnteoxbG80javvb0BkGQ0IbCih76RCj1uKL33EsWVqM3fwEa9plxZCQwN2mJcrZCrscHDZB3lK6K15J8YgyoFp0b1nCI7WAgCuAB0xws0AWctZACQ3l7LuxIFVS9UUzLShdPeimJd44kStivZAQfUx4mijZBM9Pk87ZC0z8M2M7ZBf8",
+      "displayName" : "Tim Wissel",
+      "firebaseAuthToken" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0MDk4NTY0NTUsInYiOjAsImQiOnsiaWQiOiI2NzU1Mjc2MjU4NzczMjEiLCJ1aWQiOiJmYWNlYm9vazo2NzU1Mjc2MjU4NzczMjEiLCJwcm92aWRlciI6ImZhY2Vib29rIn0sImlhdCI6MTQwOTc3MDA1NX0.kGppUILU34Jxh53AMhEqet-f81Wnrr3UagkuZevym5I",
+      "id" : "675527625877321",
+      "lists" : {
+        "-JVwq2jP3rMxxJVVeKcB" : {
+          "directoryName" : "unordered",
+          "listIDs" : [ "-JVwq2hG--e9Ociizwc3" ]
+        },
+        "-JWy_wXCqgScNor0RBBs" : {
+          "directoryName" : "example category"
+        },
+        "-JWya07abQPYpOytS1t6" : {
+          "directoryName" : "example category",
+          "listIDs" : [ "-JWya04WjvI4hf1GPlWf" ]
+        },
+        "-JWya4N8cSIatiJQJwyi" : {
+          "directoryName" : "example category"
+        },
+        "-JXsG3inNhZqbK_3umw7" : {
+          "directoryName" : "example category"
+        },
+        "-JXsHRFlXXTZeeKKvr-N" : {
+          "directoryName" : "nieuwe categorie"
+        },
+        "-JXsHRbjJ7W3EXcIXjpH" : {
+          "directoryName" : "new",
+          "listIDs" : [ "-JXsHR__pYZa6bq8nRT8" ]
+        },
+        "-JY6HxMVCvdXsFVuxUNh" : {
+          "directoryName" : "example category"
+        },
+        "-JY6SZ-iKNwqT49Va_73" : {
+          "directoryName" : "example category"
+        },
+        "-JY6TfSvGoqUlcwpsiic" : {
+          "directoryName" : "example category"
+        },
+        "-JY6etYJ1HxrxkkiOxHA" : {
+          "directoryName" : "example category"
+        }
+      },
+      "provider" : "facebook",
+      "thirdPartyUserData" : {
+        "age_range" : {
+          "max" : 17,
+          "min" : 13
+        },
+        "first_name" : "Tim",
+        "gender" : "male",
+        "id" : "675527625877321",
+        "last_name" : "Wissel",
+        "link" : "https://www.facebook.com/app_scoped_user_id/675527625877321/",
+        "locale" : "nl_NL",
+        "name" : "Tim Wissel",
+        "picture" : {
+          "data" : {
+            "is_silhouette" : false,
+            "url" : "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/p100x100/12710_343070519123035_2020193469_n.jpg?oh=f2082d8d5658a955de5485c940a39837&oe=547914EB&__gda__=1415625045_2084e7d82fecbcee55eadbf50c954832"
+          }
+        },
+        "timezone" : 2
+      },
+      "uid" : "facebook:675527625877321"
+    },
+    "google:102098218638588067293" : {
+      "accessToken" : "ya29.dQBTZIaUVJ8tChwAAAA27zkUH8s2TOhdobrXsCCGbfETn5cAjFOOnD4eGk_AaA",
+      "displayName" : "Mar vd Put-Brouwer",
+      "email" : "mar.vdputbrouwer@gmail.com",
+      "firebaseAuthToken" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0MDk4MTI0NTUsInYiOjAsImQiOnsiaWQiOiIxMDIwOTgyMTg2Mzg1ODgwNjcyOTMiLCJ1aWQiOiJnb29nbGU6MTAyMDk4MjE4NjM4NTg4MDY3MjkzIiwicHJvdmlkZXIiOiJnb29nbGUiLCJlbWFpbCI6Im1hci52ZHB1dGJyb3V3ZXJAZ21haWwuY29tIn0sImlhdCI6MTQwOTcyNjA1NH0.1QBtvLaw1zJz_-N4mBBC4sWVgzLzEndIbqNpzkntE7M",
+      "id" : "102098218638588067293",
+      "lists" : {
+        "-JVwnfYOhz5-xtqnedtq" : {
+          "directoryName" : "example category"
+        },
+        "-JVwoQrFYYLE9k_VcfD6" : {
+          "directoryName" : "unordered",
+          "listIDs" : [ "-JVwoQUHiKYNUhobR1mo" ]
+        }
+      },
+      "provider" : "google",
+      "thirdPartyUserData" : {
+        "email" : "mar.vdputbrouwer@gmail.com",
+        "family_name" : "vd Put-Brouwer",
+        "gender" : "female",
+        "given_name" : "Mar",
+        "id" : "102098218638588067293",
+        "link" : "https://plus.google.com/102098218638588067293",
+        "locale" : "nl",
+        "name" : "Mar vd Put-Brouwer",
+        "picture" : "https://lh3.googleusercontent.com/-MoL1H5WF3MM/AAAAAAAAAAI/AAAAAAAABnw/nXtZpOuMSCk/photo.jpg",
+        "verified_email" : true
+      },
+      "uid" : "google:102098218638588067293"
+    },
+    "google:102301357648345413164" : {
+      "accentsUmlauts" : true,
+      "accessToken" : "ya29.cwChq9wkUJOrmx0AAABgBvkQZrSTaBpu0_r_SmRcxI0rUxSU7wxEnx3BkYUDPQ",
+      "displayName" : "Tim Wissel",
+      "email" : "twtimwissel5@gmail.com",
+      "firebaseAuthToken" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0MDk2NDg1MzQsInYiOjAsImQiOnsiaWQiOiIxMDIzMDEzNTc2NDgzNDU0MTMxNjQiLCJ1aWQiOiJnb29nbGU6MTAyMzAxMzU3NjQ4MzQ1NDEzMTY0IiwicHJvdmlkZXIiOiJnb29nbGUiLCJlbWFpbCI6InR3dGltd2lzc2VsNUBnbWFpbC5jb20ifSwiaWF0IjoxNDA5NTYyMTMzfQ.RDQTeY09PcJAwWBXfTaahqsKXzTb_Qles3olsz-SVNE",
+      "id" : "102301357648345413164",
+      "lists" : {
+        "-JVlheKiXitTfcH3zLhq" : {
+          "directoryName" : "tutorial"
+        },
+        "-JVlwl5nG6wMrqEuad9m" : {
+          "directoryName" : "a new cat"
+        },
+        "-JVlyGlfNHUUFRN0uPWH" : {
+          "directoryName" : "tutorial",
+          "listIDs" : [ "-JVlyGjZ3p-0mGtlbUJy" ]
+        },
+        "-JVsB99gqrh9q8IjKEP2" : {
+          "directoryName" : "example category"
+        },
+        "-JVw-62_zKc11HozzoIJ" : {
+          "directoryName" : "example category"
+        },
+        "-JVw0vCvMm85pk8m8Jkg" : {
+          "directoryName" : "example category"
+        },
+        "-JVwq9lEH75xsha3y3wd" : {
+          "directoryName" : "example category"
+        },
+        "-JVwtTXZG18cQfXyBltl" : {
+          "directoryName" : "example category"
+        },
+        "-JWM5jZOGZGOBoaqV1GN" : {
+          "directoryName" : "example category"
+        },
+        "-JWM5yLV89gjy5vtWO1s" : {
+          "directoryName" : "example category"
+        },
+        "-JWaHpQF05ByQMNnT4tU" : {
+          "directoryName" : "example category"
+        },
+        "-JWaI6lUwnVwqXia8S64" : {
+          "directoryName" : "example category"
+        },
+        "-JWaIAYOpGn6DbEuygbF" : {
+          "directoryName" : "3"
+        },
+        "-JWaIUuW2lJvjs2MLack" : {
+          "directoryName" : "new",
+          "listIDs" : [ "-JWaIUrwBr5E2CoLO_-Q" ]
+        },
+        "-JWaTd375tlLJof9kC_H" : {
+          "directoryName" : "example category",
+          "listIDs" : [ "-JWaTd0wMYWcmN-26vMI" ]
+        },
+        "-JWnJDgKAzxn5sAIO4Ux" : {
+          "directoryName" : "example category"
+        },
+        "-JWnJzD8ljN2tLRydPWw" : {
+          "directoryName" : "example category"
+        },
+        "-JWy_t-n1f2vPOf5s-n1" : {
+          "directoryName" : "example category"
+        },
+        "-JWya2xJ0HfHdtCrUVTt" : {
+          "directoryName" : "example category"
+        },
+        "-JX7CB5BzpdWOwzSA0x2" : {
+          "directoryName" : "example category"
+        },
+        "-JX7DbazUDnqdDPtuCUu" : {
+          "directoryName" : "example category"
+        },
+        "-JXDCZPDCa4M_gomlxSp" : {
+          "directoryName" : "example category"
+        },
+        "-JXqMnfYhoODbspE_tg1" : {
+          "directoryName" : "example category"
+        },
+        "-JXsFAUc9qJm8GsUi0nm" : {
+          "directoryName" : "example category"
+        },
+        "-JXsHgVYOlV5RQfcpm6F" : {
+          "directoryName" : "example category"
+        },
+        "-JXsHm9Kw3od9qJDIlah" : {
+          "directoryName" : "example category"
+        },
+        "-JXsHqO5SXhiTMybjevk" : {
+          "directoryName" : "example category"
+        },
+        "-JXsIesmcNXm9bDITrrP" : {
+          "directoryName" : "example category"
+        },
+        "-JXsJCSwL6wYQPiC2p50" : {
+          "directoryName" : "example category"
+        },
+        "-JY685POQJ8D3Z5mG___" : {
+          "directoryName" : "example category"
+        },
+        "-JY68LvV_-rEespVfc0M" : {
+          "directoryName" : "example category"
+        },
+        "-JY6BKm3Bsh0U2-h5Jfi" : {
+          "directoryName" : "example category"
+        },
+        "-JY6BgeUbT9KxArLqqEy" : {
+          "directoryName" : "example category"
+        },
+        "-JY6HgOmyFMtm6GG7TFB" : {
+          "directoryName" : "example category"
+        },
+        "-JY6HnpV3_TtYXq0TtAO" : {
+          "directoryName" : "example category"
+        },
+        "-JY6I4Akw4tdPT9f2efi" : {
+          "directoryName" : "example category"
+        },
+        "-JY6JjchfauD2AD8uzrm" : {
+          "directoryName" : "example category"
+        },
+        "-JY6Js8ypQkLf1HLlxWu" : {
+          "directoryName" : "example category"
+        },
+        "-JY6PexcEi6QWXkRnthH" : {
+          "directoryName" : "example category"
+        },
+        "-JY6Pu5tk4_d6kQeFhzL" : {
+          "directoryName" : "example category"
+        },
+        "-JY6R3pd7HBl1Ths12JP" : {
+          "directoryName" : "example category"
+        },
+        "-JY6RPdeh1TXjh_deM-O" : {
+          "directoryName" : "example category"
+        },
+        "-JY6RfhwakpTcBargpEB" : {
+          "directoryName" : "example category"
+        },
+        "-JY6RqUv_xx9wGPMh1Wx" : {
+          "directoryName" : "example category"
+        },
+        "-JY6Twnha61Gq-XqNvbQ" : {
+          "directoryName" : "example category"
+        },
+        "-JY6U0hZj5Hzh01lM7Ek" : {
+          "directoryName" : "example category"
+        },
+        "-JY6VZVP1jAne7pa33NI" : {
+          "directoryName" : "example category"
+        },
+        "-JY6YCI7TEVYBXLdm9T8" : {
+          "directoryName" : "example category"
+        },
+        "-JY6YN0zqOFZZ_Y8b-iR" : {
+          "directoryName" : "example category"
+        }
+      },
+      "provider" : "google",
+      "thirdPartyUserData" : {
+        "email" : "twtimwissel5@gmail.com",
+        "family_name" : "Wissel",
+        "given_name" : "Tim",
+        "id" : "102301357648345413164",
+        "link" : "https://plus.google.com/+TimWissel",
+        "locale" : "nl",
+        "name" : "Tim Wissel",
+        "picture" : "https://lh6.googleusercontent.com/-tAl332GhJcU/AAAAAAAAAAI/AAAAAAAAAD0/WK9bUph6uew/photo.jpg",
+        "verified_email" : true
+      },
+      "uid" : "google:102301357648345413164",
+      "uppercaseLowercase" : false
+    },
+    "google:104223482819603017408" : {
+      "accessToken" : "ya29.dAAiFJugXPLo0CEAAADrokkaDrrcoHPPqaNBy__Ww6W_jN27UmBw_6bE3oMzyVexBoGZCg_HxronX3KowbA",
+      "displayName" : "Laura van Aller",
+      "email" : "laura.rocleiden@gmail.com",
+      "firebaseAuthToken" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0MDk3Nzk2MjQsInYiOjAsImQiOnsiaWQiOiIxMDQyMjM0ODI4MTk2MDMwMTc0MDgiLCJ1aWQiOiJnb29nbGU6MTA0MjIzNDgyODE5NjAzMDE3NDA4IiwicHJvdmlkZXIiOiJnb29nbGUiLCJlbWFpbCI6ImxhdXJhLnJvY2xlaWRlbkBnbWFpbC5jb20ifSwiaWF0IjoxNDA5NjkzMjIzfQ.tD2IRMu2M65r236VWmbPW3g1H_KE-RzqBaR6h0q8TQ0",
+      "id" : "104223482819603017408",
+      "lists" : {
+        "-JVsH1MA0KuXZAhow_4s" : {
+          "directoryName" : "40451374"
+        },
+        "-JVsH27wEzBFN1b6YHbP" : {
+          "directoryName" : "new",
+          "listIDs" : [ "-JVsH24HOm8rxd19SL8l" ]
+        },
+        "-JWYxri7Ul2MNBA_vi9Z" : {
+          "directoryName" : "example category"
+        },
+        "-JWYyUWpndx2Eb9mqFL5" : {
+          "directoryName" : "BMW-335i"
+        },
+        "-JWYyWfuyHQ2wWmQpYvT" : {
+          "directoryName" : "new",
+          "listIDs" : [ "-JWYyWcLkWC6SEjP_E8b" ]
+        }
+      },
+      "provider" : "google",
+      "thirdPartyUserData" : {
+        "email" : "laura.rocleiden@gmail.com",
+        "family_name" : "van Aller",
+        "given_name" : "Laura",
+        "id" : "104223482819603017408",
+        "link" : "https://plus.google.com/104223482819603017408",
+        "locale" : "nl",
+        "name" : "Laura van Aller",
+        "picture" : "https://lh3.googleusercontent.com/-0IMoXr9rqKs/AAAAAAAAAAI/AAAAAAAAABA/QsNbkW6tvyo/photo.jpg",
+        "verified_email" : true
+      },
+      "uid" : "google:104223482819603017408"
+    },
+    "google:112870578119456864978" : {
+      "accessToken" : "ya29.dADacuHzqNIcOiEAAAB6nkWjZaKWQQgYxHgXjWqHd4Xi1GhU2gG-VoqZcrgddFCgVsvlI-NPeGlAYWKTQQ4",
+      "displayName" : "Erwin van der Put",
+      "email" : "vanderputerwin@gmail.com",
+      "firebaseAuthToken" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0MDk3Nzg5MTcsInYiOjAsImQiOnsiaWQiOiIxMTI4NzA1NzgxMTk0NTY4NjQ5NzgiLCJ1aWQiOiJnb29nbGU6MTEyODcwNTc4MTE5NDU2ODY0OTc4IiwicHJvdmlkZXIiOiJnb29nbGUiLCJlbWFpbCI6InZhbmRlcnB1dGVyd2luQGdtYWlsLmNvbSJ9LCJpYXQiOjE0MDk2OTI1MTZ9.04_ZVo12fqPU4keV9bgCMBl0iKFbwyUK6zBA5rzYq3E",
+      "id" : "112870578119456864978",
+      "lists" : {
+        "-JVsEPByGQwHSiR96bUI" : {
+          "directoryName" : "example category"
+        },
+        "-JVsERtZeGONDfT9K9Z9" : {
+          "directoryName" : "example category"
+        },
+        "-JVsFiuL9QuCR-jmnnp2" : {
+          "directoryName" : "unordered",
+          "listIDs" : [ "-JVsFis8DPm89cLqJ-_d" ]
+        },
+        "-JVzKQiUAu7AdkotI_TQ" : {
+          "directoryName" : "example category"
+        },
+        "-JVzKacd-LkIBhPRJqw-" : {
+          "directoryName" : "unordered",
+          "listIDs" : [ "-JVzKaNw0vfLUTOZaO1K" ]
+        },
+        "-JW3xkunld3Oo_Bk4Ia5" : {
+          "directoryName" : "example category"
+        },
+        "-JW3xmbT20LI93VonkW1" : {
+          "directoryName" : "example category"
+        },
+        "-JW3xnnYpypmUuSrmVPP" : {
+          "directoryName" : "example category"
+        },
+        "-JW3yA8lTeupkNWCHrgn" : {
+          "directoryName" : "example category"
+        },
+        "-JW5oUf6vNQsOSIwKMti" : {
+          "directoryName" : "example category"
+        }
+      },
+      "provider" : "google",
+      "thirdPartyUserData" : {
+        "email" : "vanderputerwin@gmail.com",
+        "family_name" : "van der Put",
+        "given_name" : "Erwin",
+        "id" : "112870578119456864978",
+        "link" : "https://plus.google.com/112870578119456864978",
+        "locale" : "nl",
+        "name" : "Erwin van der Put",
+        "picture" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "verified_email" : true
+      },
+      "uid" : "google:112870578119456864978"
+    },
+    "undefined" : {
+      "lists" : {
+        "-JWnM8mPiumLNjaRDkbi" : {
+          "directoryName" : "unordered",
+          "listIDs" : [ "-JWnM8jMH_rXHJYD91fm" ]
+        },
+        "-JXC8m2A7khMuLA_Q6a6" : {
+          "directoryName" : "Oefenlijsten"
+        },
+        "-JXC9Pc6f9h1kQK7uaAB" : {
+          "directoryName" : "new",
+          "listIDs" : [ "-JXC9P_Dzg-HRlA-fp91" ]
+        },
+        "-JXEU4PFq3cnOxx_8FYn" : {
+          "directoryName" : "hh"
+        },
+        "-JXEazGIGViySeKnUGLv" : {
+          "directoryName" : "new",
+          "listIDs" : [ "-JXEU2ogt21MubMcqmmJ" ]
+        },
+        "-JXEazImUm8cp4XXoerC" : {
+          "directoryName" : "new",
+          "listIDs" : [ "-JXEU4mYpWl7sy6_escH" ]
+        },
+        "-JXEazJpHolWIuSN-KW5" : {
+          "directoryName" : "new",
+          "listIDs" : [ "-JXEU5HlrUdVL2lFinAV" ]
+        },
+        "-JXEazLDpvb3EBD-M04M" : {
+          "directoryName" : "new",
+          "listIDs" : [ "-JXEU5zUQTuYA8blfUJ8" ]
+        },
+        "-JXEazN3IPh_f-V_S6pm" : {
+          "directoryName" : "new",
+          "listIDs" : [ "-JXEU6P1ADQJH0U4nU5x" ]
+        },
+        "-JXrKWbpLqFwd3kQx5S0" : {
+          "directoryName" : "Oefenlijsten",
+          "listIDs" : [ "-JXrKWXpbLsjDIw8MQF9" ]
+        }
+      }
+    }
+  }
+}

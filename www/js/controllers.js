@@ -1,6 +1,8 @@
-angular.module('starter.controllers', ['firebase', 'ngCordova'])
+//See http://ngcordova.com for information about cordova. It's basically an angularJS wrapper for cordova libs.
+angular.module('teasy.controllers', ['firebase', 'ngCordova'])
 
-.controller('PlaylistsCtrl', function ($rootScope, $timeout, $scope, $firebase, $ionicActionSheet, $ionicPopup, $state, $ionicNavBarDelegate, $cordovaCapture, $ionicModal, $cordovaCamera, $ionicLoading, $firebaseSimpleLogin, $http) {
+//TODO: Improve modularity (splice the controller).
+.controller('AppController', function ($rootScope, $timeout, $scope, $firebase, $ionicActionSheet, $ionicPopup, $state, $ionicNavBarDelegate, $cordovaCapture, $ionicModal, $cordovaCamera, $ionicLoading, $firebaseSimpleLogin, $http) {
 	$scope.maxIndex = 0;
 	$scope.newList = {};
 	// Form data for the openModal modal
@@ -18,20 +20,9 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 		$scope.modal.hide();
 	};
 
-	// Open the openModal modal
+	// Open the modal to select an image for the OCR function
 	$scope.openModal = function () {
 		$scope.modal.show();
-	};
-
-	// Perform the openModal action when the user submits the openModal form
-	$scope.doopenModal = function () {
-		//		console.log('Doing openModal', $scope.openModalData);
-
-		// Simulate a openModal delay. Remove this and replace with your openModal
-		// code if using a openModal system
-		$timeout(function () {
-			$scope.closeModal();
-		}, 1000);
 	};
 
 	$scope.headerColor = 'bar-positive';
@@ -45,16 +36,19 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 		}
 	);
 
+	//Database synchronization powered by AngularFire. See https://www.firebase.com/docs/web/libraries/angular/
 	var ref = new Firebase("https://te-asy.firebaseio.com/");
 	var sync = $firebase(ref);
-	var ref2 = new Firebase("https://te-asy.firebaseio.com/lists");
-	var listsArray = $firebase(ref2).$asArray();
-	var ref3 = new Firebase("https://te-asy.firebaseio.com/users");
-	var usersArray = $firebase(ref3).$asArray();
+	var listsReference = new Firebase("https://te-asy.firebaseio.com/lists");
+	var listsArray = $firebase(listsReference).$asArray();
+	var usersReference = new Firebase("https://te-asy.firebaseio.com/users");
+	var usersArray = $firebase(usersReference).$asArray();
+	
+	//Database changes are automagically pushed through so angularJS can use the data in real-time.
 	$scope.usersArray = usersArray;
 	$scope.listsArray = listsArray;
 
-
+	//Retrieve the selected list from local storage
 	$scope.selectedList = localStorage.getItem('list');
 
 	$scope.database = sync.$asObject();
@@ -70,30 +64,18 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 
 	});
 
-	//	console.log($scope.userID + $scope.usersArray);
-
 	var oneRef = new Firebase("https://te-asy.firebaseio.com/lists/" + $scope.selectedList + "/");
 	$scope.oneRef = $firebase(oneRef).$asObject();
-	//	$scope.$watchCollection('database.lists[selectedList].one.values[database.lists[selectedList].one.values.length - 1]', function (newValue, oldValue) {
-	//		if (newValue !== '') {
-	//			$scope.database.lists[$scope.selectedList].one.values[$scope.database.lists[$scope.selectedList].one.values.length] = '';
-	//			$scope.database.lists[$scope.selectedList].two.values[$scope.database.lists[$scope.selectedList].two.values.length] = '';
-	//		}
-	////		console.log(oldValue);
-	////		console.log(newValue);
-	//		//        $scope.database.lists[$scope.selectedList].one.values.length = $scope.database.lists[$scope.selectedList].two.values.length;
-	//	});
 
+	//Watch this array to make sure the arrays are kept in sync. TODO: Needs some polishing.
 	$scope.$watchCollection('database.lists[selectedList].two.values[database.lists[selectedList].two.values.length - 1]', function (newValue, oldValue) {
 		if (newValue !== undefined) {
-		console.debug(newValue);	$scope.database.lists[$scope.selectedList].one.values[$scope.database.lists[$scope.selectedList].one.values.length] = '';
+	$scope.database.lists[$scope.selectedList].one.values[$scope.database.lists[$scope.selectedList].one.values.length] = '';
 			$scope.database.lists[$scope.selectedList].two.values[$scope.database.lists[$scope.selectedList].two.values.length] = '';
 		}
-		//		console.log(oldValue);
-		//		console.log(newValue);
-		//        $scope.database.lists[$scope.selectedList].one.values.length = $scope.database.lists[$scope.selectedList].two.values.length;
 	});
 
+	//Login with 0Auth Google Login powered by AngularFire (https://www.firebase.com/docs/web/libraries/angular/)
 	$scope.loginWithGoogle = function () {
 		$scope.loginObj.$login("google", {
 			rememberMe: true
@@ -107,16 +89,7 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
                         ]
 			};
 			$scope.userStuff.$add(newStuff);
-			//			console.log("Logged in as: ", user.uid);
 			var id = user.uid;
-			//			if (!$scope.database.users[id]) {
-			//				console.log('nope');
-			//				$scope.database.users[user.uid] = user;
-			//
-			//				$scope.database.$save();
-			//			} else {
-			//				console.log('yep');
-			//			}
 			$state.go('app.myLists');
 			$ionicPopup.alert({
 				title: 'Welcome!',
@@ -128,6 +101,7 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 		});
 	};
 
+	//Login with 0Auth Facebook Login powered by AngularFire (https://www.firebase.com/docs/web/libraries/angular/)
 	$scope.loginWithFacebook = function () {
 		$scope.loginObj.$login("facebook", {
 			rememberMe: true
@@ -141,16 +115,7 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
                         ]
 			};
 			$scope.userStuff.$add(newStuff);
-			//			console.log("Logged in as: ", user.uid);
 			var id = user.uid;
-			//			if (!$scope.database.users[id]) {
-			//				console.log('nope');
-			//				$scope.database.users[user.uid] = user;
-			//
-			//				$scope.database.$save();
-			//			} else {
-			//				console.log('yep');
-			//			}
 			$state.go('app.myLists');
 		}, function (error) {
 			console.error("openModal failed: ", error);
@@ -239,9 +204,6 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 			titleText: 'Selected list: <b>' + $scope.database.lists[$scope.selectedList].title + '</b>',
 			destructiveText: 'Delete <i class="icon ion-ios7-trash"></i>',
 			cancelText: 'Cancel',
-			cancel: function () {
-				// add cancel code..
-			},
 			buttonClicked: function (index) {
 				switch (index) {
 				case 0:
@@ -251,11 +213,7 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 					$state.go('app.editList');
 					break;
 				case 2:
-
-
 				}
-				//                $state.go('app.editList');
-				//                return true;
 			},
 			destructiveButtonClicked: function () {
 				$scope.showConfirm(list);
@@ -269,7 +227,7 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 		var confirmPopup = $ionicPopup.confirm({
 			title: 'Delete list?',
 			template: 'Are you sure you want to delete list <b>' + $scope.database.lists[$scope.selectedList].title + '</b>?',
-			buttons: [{ //Array[Object] (optional). Buttons to place in the popup footer.
+			buttons: [{
 				text: 'Cancel',
 				type: 'button-default',
 				onTap: function (e) {}
@@ -287,11 +245,6 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 							}
 						});
 					});
-//					var ref = new Firebase("https://te-asy.firebaseio.com/lists/" + $scope.selectedList);
-//					var stuff2 = $firebase(ref);
-//					stuff2.$remove();
-//					stuff2.$remove($scope.selectedList);
-//					// Returning a value will cause the promise to resolve with the given value.
 					return true;
 				}
   }]
@@ -301,11 +254,8 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 	$scope.practice3 = function () {
 		$state.go('app.practice3');
 	};
-
-	//	console.log($scope.maxIndex);
-
-	//    console.log($scope.selectedList);
-
+	
+	//Open the editlist menu
 	$scope.editList = function (newList) {
 		if (newList.category === undefined || newList.category === '' || newList.category === null) {
 			newList.category = 'unordered';
@@ -315,9 +265,8 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 		listsArray.$add(newList).then(function (ref) {
 			var id = ref.name();
 			$scope.selectedList = id;
+			//Save the list id to localStorage
 			localStorage.setItem("list", id);
-			//			console.log("added record with id " + id);
-
 			var ListForUser = {
 				directoryName: newList.category,
 				id: id
@@ -351,6 +300,7 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 		});
 	};
 
+	//Done editing, save to database.
 	$scope.editComplete = function () {
 		angular.forEach($scope.database.lists[$scope.selectedList].one.values, function (value, key) {
 			if (value === '' && $scope.database.lists[$scope.selectedList].two.values[key] === '') {
@@ -382,8 +332,10 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 
 	};
 
+	//Synchronize the settings with the database.
+	// @arg0: value {boolean}
+	// @arg1: number to determine which one is changed {number}
 	$scope.settingsToggle = function (arg0, arg1) {
-		//        console.log($scope.usersArray[$scope.userID] + ', ' + arg0 + ', ' + arg1);
 		if (arg1 === 0) {
 			sync.$asObject().users[$scope.userID]["uppercaseLowercase"] = arg0;
 			sync.$asObject().$save();
@@ -395,13 +347,6 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 			sync.$asObject().$save();
 		}
 	};
-
-	$scope.$watch('newList.category.directoryName', function (newVal, oldVal) {
-		//		console.log('changed: ' + newVal);
-	}, true);
-	$scope.$watch('color', function (newVal, oldVal) {
-		//		console.log('changed: ' + newVal);
-	}, true);
 
 	$scope.change = function (category) {
 		if (category === 'new') {
@@ -419,8 +364,7 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 						type: 'button-positive',
 						onTap: function (e) {
 							if (!$scope.newList.category) {
-								//don't allow the user to close unless he enters wifi password
-								//								console.error('no category input given');
+								//category must be entered before continuing
 							} else {
 								var directoryRef = new Firebase("https://te-asy.firebaseio.com/users/" + $scope.userID + "/lists/");
 								var thisthing = $firebase(directoryRef).$asArray();
@@ -438,12 +382,12 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 	//Get a random number for the practice mode
 	var randomNumbered = false;
 	$scope.$watch('database.lists[selectedList]', function (newValue, oldValue) {
-		//		if (randomNumbered) {
-		//			$scope.randomNumber = Math.floor((Math.random() * $scope.database.lists[$scope.selectedList].two.values.length));
-		//			$scope.lengthThingy = $scope.database.lists[$scope.selectedList].two.values.length;
-		//			randomNumbered = false;
-		//		}
-		//		randomNumbered = true;
+				if (randomNumbered) {
+					$scope.randomNumber = Math.floor((Math.random() * $scope.database.lists[$scope.selectedList].two.values.length));
+					$scope.lengthThingy = $scope.database.lists[$scope.selectedList].two.values.length;
+					randomNumbered = false;
+				}
+				randomNumbered = true;
 	}, true);
 
 	//  Camera on the left is tapped
@@ -481,4 +425,4 @@ angular.module('starter.controllers', ['firebase', 'ngCordova'])
 		//clear the cookies
 		window.cookies.clear();
 	});
-})
+});
